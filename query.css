@@ -1,0 +1,22 @@
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+}
+
+@media screen and (max-width:900px) {
+    .circle {
+        border-radius: 0%;
+        background-color: rgba(0, 241, 8, 0.943);
+    }
+
+
+}
+
+@media screen and (max-width:600px) {
+    .circle {
+        border-radius: 50%;
+        background-color: black;
+    }
+
+}

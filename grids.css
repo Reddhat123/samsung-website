@@ -1,0 +1,28 @@
+button{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: rgba(0, 0, 255, 0.788);
+    font-weight: bold;
+    border:3px solid red ;
+    font-size: 20px;
+    border-radius: 5px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button:hover{
+    background-color:white;
+    border: 3px solid black;
+    color: red;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+p{
+    word-spacing: 20px;
+}
